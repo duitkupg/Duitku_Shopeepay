@@ -14,9 +14,9 @@
  */
 
 namespace Duitku\Shopeepay\Helper;
-include_once('Duitku/DuitkuCore.php');
+// include_once('Duitku/DuitkuCore.php');
 use Duitku\Shopeepay\Helper\DuitkuConstants;
-use Duitku_Shopee_Core;
+use Duitku\Shopeepay\Helper\Duitku\Duitku_Shopee_Core;
 class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
     /**
